@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="Trebol_Q" size="10.000000 15.119522" />
+    <ImageTarget name="Trebol_K" size="10.000000 15.244162" />
+    <ImageTarget name="Trebol_J" size="10.000000 15.372233" />
+    <ImageTarget name="Trebol_A" size="10.000000 15.040322" />
+    <ImageTarget name="Trebol_10" size="10.000000 14.968685" />
+    <ImageTarget name="Trebol_9" size="10.000000 15.646817" />
+    <ImageTarget name="Trebol_8" size="10.000000 15.285412" />
+    <ImageTarget name="Trebol_7" size="10.000000 15.278397" />
+    <ImageTarget name="Trebol_6" size="10.000000 15.315904" />
+    <ImageTarget name="Trebol_5" size="10.000000 14.920319" />
+    <ImageTarget name="Trebol_4" size="10.000000 15.353982" />
+    <ImageTarget name="Trebol_3" size="10.000000 15.244162" />
+    <ImageTarget name="Trebol_2" size="10.000000 15.248380" />
+    <ImageTarget name="Pica_Q" size="10.000000 15.421456" />
+    <ImageTarget name="Pica_K" size="10.000000 15.447471" />
+    <ImageTarget name="Pica_J" size="10.000000 15.335968" />
+    <ImageTarget name="Pica_A" size="10.000000 15.009488" />
+    <ImageTarget name="Pica_10" size="10.000000 15.375494" />
+    <ImageTarget name="Pica_9" size="10.000000 15.321285" />
+    <ImageTarget name="Pica_8" size="10.000000 15.627451" />
+    <ImageTarget name="Pica_7" size="10.000000 15.294118" />
+    <ImageTarget name="Pica_6" size="10.000000 15.625000" />
+    <ImageTarget name="Pica_5" size="10.000000 15.229541" />
+    <ImageTarget name="Pica_4" size="10.000000 15.482625" />
+    <ImageTarget name="Pica_3" size="10.000000 15.293006" />
+    <ImageTarget name="Pica_2" size="10.000000 15.056603" />
+    <ImageTarget name="Corazon_Q" size="10.000000 15.435204" />
+    <ImageTarget name="Corazon_K" size="10.000000 15.096154" />
+    <ImageTarget name="Corazon_J" size="10.000000 15.229541" />
+    <ImageTarget name="Corazon_A" size="10.000000 15.681818" />
+    <ImageTarget name="Corazon_10" size="10.000000 15.641509" />
+    <ImageTarget name="Corazon_9" size="10.000000 15.404339" />
+    <ImageTarget name="Corazon_8" size="10.000000 15.268390" />
+    <ImageTarget name="Corazon_7" size="10.000000 15.376985" />
+    <ImageTarget name="Corazon_6" size="10.000000 15.116279" />
+    <ImageTarget name="Corazon_5" size="10.000000 15.795455" />
+    <ImageTarget name="Corazon_4" size="10.000000 15.575397" />
+    <ImageTarget name="Corazon_3" size="10.000000 15.365853" />
+    <ImageTarget name="Corazon_2" size="10.000000 15.564682" />
+    <ImageTarget name="Diamante_K" size="100.000000 153.139008" />
+    <ImageTarget name="Diamante_Q" size="100.000000 150.675674" />
+    <ImageTarget name="Diamante_J" size="100.000000 153.181824" />
+    <ImageTarget name="Diamante_A" size="100.000000 152.419357" />
+    <ImageTarget name="Diamante_10" size="100.000000 154.694839" />
+    <ImageTarget name="Diamante_9" size="100.000000 151.235962" />
+    <ImageTarget name="Diamante_8" size="100.000000 154.090912" />
+    <ImageTarget name="Diamante_7" size="100.000000 150.416672" />
+    <ImageTarget name="Diamante_6" size="100.000000 151.224945" />
+    <ImageTarget name="Diamante_5" size="100.000000 153.215073" />
+    <ImageTarget name="Diamante_4" size="10.000000 15.683594" />
+    <ImageTarget name="Diamante_3" size="10.000000 15.546720" />
+    <ImageTarget name="Diamante_2" size="10.000000 15.323887" />
+    <ImageTarget name="JokerNegro" size="10.000000 15.141701" />
+    <ImageTarget name="JokerRojo" size="10.000000 15.191874" />
+  </Tracking>
+</QCARConfig>
