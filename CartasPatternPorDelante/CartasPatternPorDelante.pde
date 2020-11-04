@@ -11,8 +11,8 @@ void draw() {
   background(255);
 
   pushMatrix();
-  translate(0,0);
-  rotate(radians(mouseX));
+  translate(0,530);
+  rotate(radians(360));
   led();
   popMatrix();
   
