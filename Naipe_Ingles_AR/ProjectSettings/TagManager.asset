@@ -6,7 +6,8 @@ TagManager:
   tags:
   - enSuelo
   - Bateria9V
-  - Resisitencia220
+  - Resistencia220
+  - Led
   layers:
   - Default
   - TransparentFX

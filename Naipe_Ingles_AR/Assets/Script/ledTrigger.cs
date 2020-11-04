@@ -12,12 +12,13 @@ public class ledTrigger : MonoBehaviour {
 
     void Start() {
         luzLed.enabled = false; 
-        Debug.Log("Inicio Código");
+        
 
     }
 
     void OnTriggerEnter(Collider other) {
       if (other.gameObject.CompareTag("Bateria9V")) {
+            luzLed.intensity = 8;
             luzLed.enabled = true;  
         } else {
             luzLed.enabled = false;
@@ -25,7 +26,6 @@ public class ledTrigger : MonoBehaviour {
     }
 
     void OnTriggerExit(Collider other) {
-        Debug.Log("Trigger desactivado");
         luzLed.enabled = false; 
     }
 
