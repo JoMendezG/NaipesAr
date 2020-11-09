@@ -5,14 +5,14 @@ color [] colModulos = new color[3]; // array de color que almacena mis 3 tonos m
 int [] rotar = new int [4];
 int [] modulos = new int [2];
 
-float anchBloque = 50;
-float altoBloque = 50;
+float anchBloque = 100;
+float altoBloque = 100;
 
 float cant;
 void setup() {
 
   //size(148, 232);  
-  size(294, 464);
+  size(588, 928);
 
   colModulos[0] = color(80, 38, 111);
   colModulos[1] = color(102, 49, 137);
