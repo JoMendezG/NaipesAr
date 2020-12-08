@@ -70,7 +70,7 @@ void pat1(float posX, float posY, float tamX, float tamY) {
   ellipse(0, 0, tamX/2, tamY/2);
 
 
-  fill(255, random(10, 30));
+  fill(255, random(20, 40));
   triangle(0-tamX/2, 0+tamY/2, 0+tamX/2, 0+tamY/2, 0+tamX/2, 0-tamY/2);
   popMatrix();
 }
@@ -99,7 +99,7 @@ void pat2 (float posX, float posY, float tamX, float tamY) {
   ellipse(0+tamX/3, 0, tamX/4, tamY/4);
   ellipse(0-tamX/3, 0, tamX/4, tamY/4);
 
-  fill(255, random(0, 30));
+  fill(255, random(0, 40));
   noStroke();
   rect(0, 0, tamX, tamY);
 
@@ -125,7 +125,7 @@ void pat3 (float posX, float posY, float tamX, float tamY) {
   ellipse(0+tamX/4, 0-tamY/4, tamX/4, tamY/4);
   ellipse(0-tamX/4, 0-tamY/4, tamX/4, tamY/4);
 
-  fill(255, random(10, 30));
+  fill(255, random(10, 40));
   triangle(0-tamX/2, 0+tamY/2, 0+tamX/2, 0+tamY/2, 0+tamX/2, 0-tamY/2);
   popMatrix();
 }
@@ -154,9 +154,9 @@ void keyPressed() {
     colModulos[1] = color(89, 162, 217);
     colModulos[2] = color(113, 195, 238);
   } else if (key == '5') { // Amarillo
-    colModulos[0] = color(248, 196, 28);
-    colModulos[1] = color(251, 207, 76);
-    colModulos[2] = color(251, 218, 116);
+    colModulos[0] = color(250, 191, 15);
+    colModulos[1] = color(251, 207, 75);
+    colModulos[2] = color(253, 223, 135);
   } else if (key == '6') { // Naranjo
     colModulos[0] = color(234, 98, 49);
     colModulos[1] = color(239, 129, 88);
