@@ -5,14 +5,14 @@ color [] colModulos = new color[3]; // array de color que almacena mis 3 tonos m
 int [] rotar = new int [4];
 int [] modulos = new int [2];
 
-float anchBloque = 100;
-float altoBloque = 100;
+float anchBloque = 125;
+float altoBloque = 125;
 
 float cant;
 void setup() {
 
   //size(148, 232);  
-  size(588, 928);
+  size(940, 1360);
 
   colModulos[0] = color(80, 38, 111);
   colModulos[1] = color(102, 49, 137);
@@ -34,7 +34,7 @@ void draw() {
   for (int i = 0; i < 7; i++) {
     for (int j = 0; j < 10; j++) {
       cant = random(0, 3);
-      modMorados(i*anchBloque, j*altoBloque+altoBloque/10, anchBloque, altoBloque);
+      modMorados(i*150, j*150+altoBloque/10, anchBloque, altoBloque);
     }
   }
 
