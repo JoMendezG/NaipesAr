@@ -12,7 +12,7 @@ float cant;
 void setup() {
 
   //size(148, 232);  
-  size(294, 464);
+  size(800, 800);
 
   colModulos[0] = color(80, 38, 111);
   colModulos[1] = color(144, 58, 142);
@@ -35,10 +35,10 @@ void draw() {
 
   background(255);
 
-  for (int i = 0; i < 7; i++) {
-    for (int j = 0; j < 10; j++) {
+  for (int i = 0; i < 100; i++) {
+    for (int j = 0; j < 100; j++) {
       cant = random(0, 3);
-      modMorados(i*anchBloque, j*altoBloque+altoBloque/10, anchBloque, altoBloque);
+      modMorados(i*65+50, j*65+50     , anchBloque, altoBloque);
     }
   }
 
